@@ -1,0 +1,136 @@
+div#boards {
+    top: 24px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+canvas#board {
+    position: relative;
+    border: 5px solid #0574da;
+    border-radius: 9px;
+    display: inline;
+}
+
+div#side {
+    display: inline-block;
+}
+
+div#help {
+    position: relative;
+    top: -237px;
+    left: 70px;
+}
+img#helpImg {
+    width: 56px;
+    cursor: pointer;
+    transition:width 0.3s ease;	/* words transition */
+    -moz-transition:width 0.3s; /* Firefox 4 */
+    -webkit-transition:width 0.3s; /* Safari and Chrome */
+    -o-transition:width 0.3s; /* Opera */
+}
+img#helpImg:hover {
+    width: 66px;
+}
+
+div#score {
+    position: relative;
+    top: -153px;
+    left: -5px;
+    width: 210px;
+    height: 340px;
+    background-color: teal;
+    border: 3px solid #3fb3d9;
+    border-radius: 6px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+table tr td#scoreText {
+    color: white;
+    font-size: 34px;
+    font-family: monospace;
+    width: 211px;
+}
+table tr td#nowScore {
+    color: #fdff6b;
+    font-size: 29px;
+    font-family: monospace;
+}
+table tr td#highestText {
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+table tr td#highScore {
+    color: white;
+    font-size: 27px;
+    font-family: monospace;
+}
+table tr td#test {
+    color: #64d3e3;
+    font-size: 16px;
+    font-family: monospace;
+    height: 20px;
+    line-height: 20px;
+}
+table tr td#test2 {
+    height: 24px;
+}
+table tr td#redo {
+    font-size: 24px;
+    font-family: sans-serif;
+    background-color: #e5e56d;
+    height: 63px;
+    border-style: hidden;
+    border-radius: 3px;
+    cursor: pointer;
+    transition:background-color 0.3s ease;	/* words transition */
+    -moz-transition:background-color 0.3s; /* Firefox 4 */
+    -webkit-transition:background-color 0.3s; /* Safari and Chrome */
+    -o-transition:background-color 0.3s; /* Opera */
+}
+table tr td#redo:hover {
+    font-size: 24px;
+    font-family: sans-serif;
+    background-color: #f6f66d;
+    height: 63px;
+    border-style: hidden;
+    border-radius: 3px;
+    cursor: pointer;
+}
+table tr td#restart {
+    font-size: 24px;
+    font-family: sans-serif;
+    background-color: #72e05c;
+    height: 63px;
+    border-style: hidden;
+    border-radius: 3px;
+    cursor: pointer;
+    transition:background-color 0.3s ease;	/* words transition */
+    -moz-transition:background-color 0.3s; /* Firefox 4 */
+    -webkit-transition:background-color 0.3s; /* Safari and Chrome */
+    -o-transition:background-color 0.3s; /* Opera */
+}
+table tr td#restart:hover {
+    font-size: 24px;
+    font-family: sans-serif;
+    background-color: #7cf963;
+    height: 63px;
+    border-style: hidden;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+p 			{ color: #464544; }
+a:link 		{ color: #331818; text-decoration:none; }
+a:visited 	{ color: #331818; text-decoration:none; }
+a:hover 	{ color: #404142; text-decoration:none; }
+a:active 	{ color: #4431b9; text-decoration:none; }
+a {
+    transition:color 0.3s ease;	/* words transition */
+    -moz-transition:color 0.3s; /* Firefox 4 */
+    -webkit-transition:color 0.3s; /* Safari and Chrome */
+    -o-transition:color 0.3s; /* Opera */
+}
